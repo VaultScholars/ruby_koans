@@ -1,6 +1,6 @@
 {
   "name": "Ruby Koans",
-  "image": "mcr.microsoft.com/devcontainers/ruby:4.0",
+  "image": "mcr.microsoft.com/devcontainers/ruby",
   "features": {},
   "customizations": {
     "vscode": {
