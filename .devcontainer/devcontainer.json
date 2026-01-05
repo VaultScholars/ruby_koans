@@ -1,0 +1,12 @@
+{
+  "name": "Ruby Koans",
+  "image": "mcr.microsoft.com/devcontainers/ruby:4.0",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "castwide.solargraph"
+      ]
+    }
+  }
+}

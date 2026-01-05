@@ -108,13 +108,13 @@ desc "Generate the Koans from the source files from scratch."
 task :regen => [:clobber_koans, :gen]
 
 desc "Generate the Koans from the changed source files."
-task :gen => KOAN_FILES + [PROB_DIR + "/README.rdoc"]
+task :gen => KOAN_FILES + [PROB_DIR + "/README.md"]
 task :clobber_koans do
   rm_r PROB_DIR
 end
 
-file PROB_DIR + "/README.rdoc" => "README.rdoc" do |t|
-  cp "README.rdoc", t.name
+file PROB_DIR + "/README.md" => "README.md" do |t|
+  cp "README.md", t.name
 end
 
 SRC_FILES.each do |koan_src|
